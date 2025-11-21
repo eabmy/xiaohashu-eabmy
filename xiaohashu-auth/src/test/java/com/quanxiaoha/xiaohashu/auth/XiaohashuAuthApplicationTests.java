@@ -63,7 +63,7 @@ class XiaohashuAuthApplicationTests {
     @Test
     void testDelete() {
         // 删除主键 ID 为 4 的记录
-        userDOMapper.deleteByPrimaryKey(1L);
+        userDOMapper.deleteByPrimaryKey(2L);
     }
 }
 
